@@ -5,6 +5,7 @@
     <classes>
       <class name="com.ActualTest.TC_LoginPageTest_001"/>
       <class name="com.ActualTest.BaseClass"/>
+      <class name="com.ActualTest.TC_CustomizedTest_001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

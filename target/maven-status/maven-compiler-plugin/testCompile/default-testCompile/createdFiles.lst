@@ -1,3 +1,6 @@
-com\ActualTest\BaseClass.class
 com\PageObject\LoginPage.class
 com\ActualTest\TC_LoginPageTest_001.class
+com\PageObject\CustomizedStatementPage.class
+com\ActualTest\BaseClass.class
+com\ActualTest\TC_CustomizedTest_001.class
+com\PageObject\NewCustomerPage.class
