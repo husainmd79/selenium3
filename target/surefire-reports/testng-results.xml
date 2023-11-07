@@ -1,31 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T23:21:49 EDT" name="Suite" finished-at="2023-10-08T23:22:00 EDT" duration-ms="11881">
+  <suite started-at="2023-11-05T20:48:06 EST" name="Suite" finished-at="2023-11-05T20:49:03 EST" duration-ms="56876">
     <groups>
     </groups>
-    <test started-at="2023-10-08T23:21:49 EDT" name="Test" finished-at="2023-10-08T23:22:00 EDT" duration-ms="11881">
-      <class name="com.ActualTest.TC_LoginPageTest_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_LoginPageTest_001@399f45b1]" started-at="2023-10-08T23:21:49 EDT" name="setUp" finished-at="2023-10-08T23:21:53 EDT" duration-ms="4790" status="PASS">
+    <test started-at="2023-11-05T20:48:06 EST" name="Test" finished-at="2023-11-05T20:49:03 EST" duration-ms="56876">
+      <class name="com.nopcommerce_Test.Ptomotion_Affiliate_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Ptomotion_Affiliate_Test@436813f3]" started-at="2023-11-05T20:48:43 EST" name="setUp" finished-at="2023-11-05T20:48:47 EST" duration-ms="3568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.ActualTest.TC_LoginPageTest_001@399f45b1]" started-at="2023-10-08T23:21:53 EDT" name="loginTest" finished-at="2023-10-08T23:21:56 EDT" duration-ms="2566" status="PASS">
+        <test-method signature="affiliateTest()[pri:0, instance:com.nopcommerce_Test.Ptomotion_Affiliate_Test@436813f3]" started-at="2023-11-05T20:48:47 EST" name="affiliateTest" finished-at="2023-11-05T20:49:03 EST" duration-ms="16399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.ActualTest.TC_LoginPageTest_001 -->
-      <class name="com.ActualTest.TC_CustomizedTest_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_CustomizedTest_001@16d04d3d]" started-at="2023-10-08T23:21:56 EDT" name="setUp" finished-at="2023-10-08T23:21:58 EDT" duration-ms="2382" status="PASS">
+        </test-method> <!-- affiliateTest -->
+      </class> <!-- com.nopcommerce_Test.Ptomotion_Affiliate_Test -->
+      <class name="com.nopcommerce_Test.Promotion_Campaign_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Promotion_Campaign_Test@223d2c72]" started-at="2023-11-05T20:48:26 EST" name="setUp" finished-at="2023-11-05T20:48:28 EST" duration-ms="1911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customizedTest()[pri:0, instance:com.ActualTest.TC_CustomizedTest_001@16d04d3d]" started-at="2023-10-08T23:21:58 EDT" name="customizedTest" finished-at="2023-10-08T23:22:00 EDT" duration-ms="2081" status="PASS">
+        <test-method signature="campaignTest()[pri:0, instance:com.nopcommerce_Test.Promotion_Campaign_Test@223d2c72]" started-at="2023-11-05T20:48:28 EST" name="campaignTest" finished-at="2023-11-05T20:48:32 EST" duration-ms="4307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customizedTest -->
-      </class> <!-- com.ActualTest.TC_CustomizedTest_001 -->
+        </test-method> <!-- campaignTest -->
+      </class> <!-- com.nopcommerce_Test.Promotion_Campaign_Test -->
+      <class name="com.nopcommerce_Test.NopCommerce_LoginTest">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.nopcommerce_Test.NopCommerce_LoginTest@1d2adfbe]" started-at="2023-11-05T20:48:06 EST" name="set" finished-at="2023-11-05T20:48:12 EST" duration-ms="5265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="LoginTest()[pri:0, instance:com.nopcommerce_Test.NopCommerce_LoginTest@1d2adfbe]" started-at="2023-11-05T20:48:12 EST" name="LoginTest" finished-at="2023-11-05T20:48:17 EST" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.nopcommerce_Test.NopCommerce_LoginTest -->
+      <class name="com.nopcommerce_Test.Promotion_Discount_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Promotion_Discount_Test@8f4ea7c]" started-at="2023-11-05T20:48:32 EST" name="setUp" finished-at="2023-11-05T20:48:35 EST" duration-ms="2670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="discountTest()[pri:0, instance:com.nopcommerce_Test.Promotion_Discount_Test@8f4ea7c]" started-at="2023-11-05T20:48:35 EST" name="discountTest" finished-at="2023-11-05T20:48:43 EST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discountTest -->
+      </class> <!-- com.nopcommerce_Test.Promotion_Discount_Test -->
+      <class name="com.nopcommerce_Test.NopCommerce__Window2__Demo__Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.NopCommerce__Window2__Demo__Test@36902638]" started-at="2023-11-05T20:48:17 EST" name="setUp" finished-at="2023-11-05T20:48:19 EST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="window2DemoTest()[pri:0, instance:com.nopcommerce_Test.NopCommerce__Window2__Demo__Test@36902638]" started-at="2023-11-05T20:48:19 EST" name="window2DemoTest" finished-at="2023-11-05T20:48:26 EST" duration-ms="6707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window2DemoTest -->
+      </class> <!-- com.nopcommerce_Test.NopCommerce__Window2__Demo__Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

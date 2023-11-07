@@ -2,10 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.ActualTest.TC_LoginPageTest_001"/>
-      <class name="com.ActualTest.BaseClass"/>
-      <class name="com.ActualTest.TC_CustomizedTest_001"/>
-    </classes>
+    <packages>
+      <package name="com.nopcommerce_Test"/>
+      <package name="com.ActualTest"/>
+    </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

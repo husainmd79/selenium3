@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ActualTest.TC_LoginPageTest_001">
+      <class name="com.nopcommerce_Test.Ptomotion_Affiliate_Test">
         <methods>
+          <include name="TearDown"/>
+          <include name="affiliateTest"/>
           <include name="setUp"/>
-          <include name="customerTest"/>
         </methods>
-      </class> <!-- com.ActualTest.TC_LoginPageTest_001 -->
+      </class> <!-- com.nopcommerce_Test.Ptomotion_Affiliate_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

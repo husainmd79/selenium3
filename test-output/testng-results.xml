@@ -1,31 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T23:17:40 EDT" name="Suite" finished-at="2023-10-08T23:17:49 EDT" duration-ms="9515">
+  <suite started-at="2023-11-07T07:47:37 EST" name="Suite" finished-at="2023-11-07T07:53:07 EST" duration-ms="329918">
     <groups>
     </groups>
-    <test started-at="2023-10-08T23:17:40 EDT" name="Test" finished-at="2023-10-08T23:17:49 EDT" duration-ms="9515">
-      <class name="com.ActualTest.TC_LoginPageTest_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_LoginPageTest_001@7eac9008]" started-at="2023-10-08T23:17:40 EDT" name="setUp" finished-at="2023-10-08T23:17:44 EDT" duration-ms="3887" status="PASS">
+    <test started-at="2023-11-07T07:47:37 EST" name="Test" finished-at="2023-11-07T07:53:07 EST" duration-ms="329918">
+      <class name="com.ActualTest.Expedia_DatePicker_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.Expedia_DatePicker_Good@2002fc1d]" started-at="2023-11-07T07:51:28 EST" name="setUp" finished-at="2023-11-07T07:51:36 EST" duration-ms="7657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.ActualTest.TC_LoginPageTest_001@7eac9008]" started-at="2023-10-08T23:17:44 EDT" name="loginTest" finished-at="2023-10-08T23:17:46 EDT" duration-ms="1844" status="PASS">
+        <test-method signature="datePick()[pri:0, instance:com.ActualTest.Expedia_DatePicker_Good@2002fc1d]" started-at="2023-11-07T07:51:36 EST" name="datePick" finished-at="2023-11-07T07:51:39 EST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.Expedia_DatePicker_Good@2002fc1d]" started-at="2023-11-07T07:51:39 EST" name="tearDown" finished-at="2023-11-07T07:51:39 EST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.Expedia_DatePicker_Good -->
+      <class name="com.ActualTest.AutoDropDown">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.AutoDropDown@38afe297]" started-at="2023-11-07T07:47:37 EST" name="setUp" finished-at="2023-11-07T07:47:40 EST" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="autoDropDown()[pri:0, instance:com.ActualTest.AutoDropDown@38afe297]" started-at="2023-11-07T07:47:41 EST" name="autoDropDown" finished-at="2023-11-07T07:47:41 EST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.AutoDropDown@38afe297]" started-at="2023-11-07T07:47:41 EST" name="tearDown" finished-at="2023-11-07T07:47:42 EST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.AutoDropDown -->
+      <class name="com.nopcommerce_Test.Ptomotion_Affiliate_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Ptomotion_Affiliate_Test@55b0dcab]" started-at="2023-11-07T07:50:56 EST" name="setUp" finished-at="2023-11-07T07:50:58 EST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="affiliateTest()[pri:0, instance:com.nopcommerce_Test.Ptomotion_Affiliate_Test@55b0dcab]" started-at="2023-11-07T07:50:58 EST" name="affiliateTest" finished-at="2023-11-07T07:51:15 EST" duration-ms="16978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliateTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce_Test.Ptomotion_Affiliate_Test@55b0dcab]" started-at="2023-11-07T07:51:15 EST" name="TearDown" finished-at="2023-11-07T07:51:15 EST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.nopcommerce_Test.Ptomotion_Affiliate_Test -->
+      <class name="com.ActualTest.Selenium_WebTable_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.Selenium_WebTable_Test@4009e306]" started-at="2023-11-07T07:52:13 EST" name="setUp" finished-at="2023-11-07T07:52:17 EST" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="webTableTest()[pri:0, instance:com.ActualTest.Selenium_WebTable_Test@4009e306]" started-at="2023-11-07T07:52:17 EST" name="webTableTest" finished-at="2023-11-07T07:52:18 EST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.Selenium_WebTable_Test@4009e306]" started-at="2023-11-07T07:52:18 EST" name="tearDown" finished-at="2023-11-07T07:52:18 EST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.Selenium_WebTable_Test -->
+      <class name="com.ActualTest.WindowHandles">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.WindowHandles@4988d8b8]" started-at="2023-11-07T07:52:53 EST" name="setUp" finished-at="2023-11-07T07:52:56 EST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="datePicker()[pri:0, instance:com.ActualTest.WindowHandles@4988d8b8]" started-at="2023-11-07T07:52:56 EST" name="datePicker" finished-at="2023-11-07T07:53:06 EST" duration-ms="10760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datePicker -->
+      </class> <!-- com.ActualTest.WindowHandles -->
+      <class name="com.ActualTest.HandleWebTable_good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.HandleWebTable_good@ae13544]" started-at="2023-11-07T07:51:49 EST" name="setUp" finished-at="2023-11-07T07:51:56 EST" duration-ms="6502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="WebTableTest()[pri:0, instance:com.ActualTest.HandleWebTable_good@ae13544]" started-at="2023-11-07T07:51:56 EST" name="WebTableTest" finished-at="2023-11-07T07:52:02 EST" duration-ms="6485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebTableTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.HandleWebTable_good@ae13544]" started-at="2023-11-07T07:52:02 EST" name="tearDown" finished-at="2023-11-07T07:52:02 EST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.HandleWebTable_good -->
+      <class name="com.ActualTest.BootstrapDropDown">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.BootstrapDropDown@7c9d8e2]" started-at="2023-11-07T07:50:52 EST" name="setUp" finished-at="2023-11-07T07:50:55 EST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropDown()[pri:0, instance:com.ActualTest.BootstrapDropDown@7c9d8e2]" started-at="2023-11-07T07:50:55 EST" name="dropDown" finished-at="2023-11-07T07:50:55 EST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.BootstrapDropDown@7c9d8e2]" started-at="2023-11-07T07:50:55 EST" name="tearDown" finished-at="2023-11-07T07:50:56 EST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.BootstrapDropDown -->
+      <class name="com.ActualTest.SouthWestAirlines_DatePicker_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.SouthWestAirlines_DatePicker_Good@43c1b556]" started-at="2023-11-07T07:52:18 EST" name="setUp" finished-at="2023-11-07T07:52:26 EST" duration-ms="8006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dummyTest()[pri:0, instance:com.ActualTest.SouthWestAirlines_DatePicker_Good@43c1b556]" started-at="2023-11-07T07:52:26 EST" name="dummyTest" finished-at="2023-11-07T07:52:29 EST" duration-ms="2841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummyTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.SouthWestAirlines_DatePicker_Good@43c1b556]" started-at="2023-11-07T07:52:29 EST" name="tearDown" finished-at="2023-11-07T07:52:29 EST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.SouthWestAirlines_DatePicker_Good -->
+      <class name="com.ActualTest.Ex_DatPicker_good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.Ex_DatPicker_good@69453e37]" started-at="2023-11-07T07:51:39 EST" name="setUp" finished-at="2023-11-07T07:51:44 EST" duration-ms="5339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="expediaDateTest()[pri:0, instance:com.ActualTest.Ex_DatPicker_good@69453e37]" started-at="2023-11-07T07:51:44 EST" name="expediaDateTest" finished-at="2023-11-07T07:51:46 EST" duration-ms="1932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaDateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.Ex_DatPicker_good@69453e37]" started-at="2023-11-07T07:51:46 EST" name="tearDown" finished-at="2023-11-07T07:51:46 EST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.Ex_DatPicker_good -->
+      <class name="com.ActualTest.DatePicker_Automation_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.DatePicker_Automation_Good@20d525]" started-at="2023-11-07T07:51:15 EST" name="setUp" finished-at="2023-11-07T07:51:22 EST" duration-ms="6602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="pickDate()[pri:0, instance:com.ActualTest.DatePicker_Automation_Good@20d525]" started-at="2023-11-07T07:51:22 EST" name="pickDate" finished-at="2023-11-07T07:51:24 EST" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.DatePicker_Automation_Good@20d525]" started-at="2023-11-07T07:51:24 EST" name="tearDown" finished-at="2023-11-07T07:51:24 EST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.DatePicker_Automation_Good -->
+      <class name="com.ActualTest.Selenium_CustomerDelete_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.Selenium_CustomerDelete_Test@7dc0f706]" started-at="2023-11-07T07:52:09 EST" name="setUp" finished-at="2023-11-07T07:52:13 EST" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerDeletTest()[pri:0, instance:com.ActualTest.Selenium_CustomerDelete_Test@7dc0f706]" started-at="2023-11-07T07:52:13 EST" name="customerDeletTest" finished-at="2023-11-07T07:52:13 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerDeletTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.Selenium_CustomerDelete_Test@7dc0f706]" started-at="2023-11-07T07:52:13 EST" name="tearDown" finished-at="2023-11-07T07:52:13 EST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.Selenium_CustomerDelete_Test -->
+      <class name="com.nopcommerce_Test.NopCommerce__Window2__Demo__Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.NopCommerce__Window2__Demo__Test@6c40365c]" started-at="2023-11-07T07:49:11 EST" name="setUp" finished-at="2023-11-07T07:49:17 EST" duration-ms="5267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="window2DemoTest()[pri:0, instance:com.nopcommerce_Test.NopCommerce__Window2__Demo__Test@6c40365c]" started-at="2023-11-07T07:49:17 EST" name="window2DemoTest" finished-at="2023-11-07T07:50:32 EST" duration-ms="75176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window2DemoTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce_Test.NopCommerce__Window2__Demo__Test@6c40365c]" started-at="2023-11-07T07:50:32 EST" name="TearDown" finished-at="2023-11-07T07:50:32 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.nopcommerce_Test.NopCommerce__Window2__Demo__Test -->
+      <class name="com.ActualTest.automationtesting_DatePicker_Test_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.automationtesting_DatePicker_Test_Good@2df3b89c]" started-at="2023-11-07T07:48:53 EST" name="setUp" finished-at="2023-11-07T07:49:07 EST" duration-ms="13909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="expediaDateTest()[pri:0, instance:com.ActualTest.automationtesting_DatePicker_Test_Good@2df3b89c]" started-at="2023-11-07T07:49:07 EST" name="expediaDateTest" finished-at="2023-11-07T07:49:11 EST" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expediaDateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.automationtesting_DatePicker_Test_Good@2df3b89c]" started-at="2023-11-07T07:49:11 EST" name="tearDown" finished-at="2023-11-07T07:49:11 EST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.automationtesting_DatePicker_Test_Good -->
+      <class name="com.ActualTest.TC_FlightTest_001">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_FlightTest_001@22fcf7ab]" started-at="2023-11-07T07:52:35 EST" name="setUp" finished-at="2023-11-07T07:52:36 EST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="flightTest()[pri:0, instance:com.ActualTest.TC_FlightTest_001@22fcf7ab]" started-at="2023-11-07T07:52:36 EST" name="flightTest" finished-at="2023-11-07T07:52:42 EST" duration-ms="6105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.TC_FlightTest_001@22fcf7ab]" started-at="2023-11-07T07:52:42 EST" name="tearDown" finished-at="2023-11-07T07:52:42 EST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.TC_FlightTest_001 -->
+      <class name="com.ActualTest.Selenium_CheckBox_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.Selenium_CheckBox_Good@3d34d211]" started-at="2023-11-07T07:52:02 EST" name="setUp" finished-at="2023-11-07T07:52:05 EST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tableDemoTest()[pri:0, instance:com.ActualTest.Selenium_CheckBox_Good@3d34d211]" started-at="2023-11-07T07:52:05 EST" name="tableDemoTest" finished-at="2023-11-07T07:52:09 EST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.Selenium_CheckBox_Good@3d34d211]" started-at="2023-11-07T07:52:09 EST" name="tearDown" finished-at="2023-11-07T07:52:09 EST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.Selenium_CheckBox_Good -->
+      <class name="com.ActualTest.DropDown_withoutSelect_twoPlug">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.DropDown_withoutSelect_twoPlug@6200f9cb]" started-at="2023-11-07T07:51:24 EST" name="setUp" finished-at="2023-11-07T07:51:28 EST" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropDownTest()[pri:0, instance:com.ActualTest.DropDown_withoutSelect_twoPlug@6200f9cb]" started-at="2023-11-07T07:51:28 EST" name="dropDownTest" finished-at="2023-11-07T07:51:28 EST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.DropDown_withoutSelect_twoPlug@6200f9cb]" started-at="2023-11-07T07:51:28 EST" name="tearDown" finished-at="2023-11-07T07:51:28 EST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.DropDown_withoutSelect_twoPlug -->
+      <class name="com.ActualTest.TC_SelectMenu_DropDown_withoutSelect_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_SelectMenu_DropDown_withoutSelect_Good@63475ace]" started-at="2023-11-07T07:52:47 EST" name="setUp" finished-at="2023-11-07T07:52:48 EST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dropDownWithoutSelect()[pri:0, instance:com.ActualTest.TC_SelectMenu_DropDown_withoutSelect_Good@63475ace]" started-at="2023-11-07T07:52:48 EST" name="dropDownWithoutSelect" finished-at="2023-11-07T07:52:52 EST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownWithoutSelect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.TC_SelectMenu_DropDown_withoutSelect_Good@63475ace]" started-at="2023-11-07T07:52:52 EST" name="tearDown" finished-at="2023-11-07T07:52:53 EST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.TC_SelectMenu_DropDown_withoutSelect_Good -->
+      <class name="com.ActualTest.TC_LoginPageTest_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_LoginPageTest_Good@2de23121]" started-at="2023-11-07T07:52:42 EST" name="setUp" finished-at="2023-11-07T07:52:43 EST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.ActualTest.TC_LoginPageTest_Good@2de23121]" started-at="2023-11-07T07:52:43 EST" name="loginTest" finished-at="2023-11-07T07:52:47 EST" duration-ms="3327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-      </class> <!-- com.ActualTest.TC_LoginPageTest_001 -->
-      <class name="com.ActualTest.TC_CustomizedTest_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_CustomizedTest_001@7c6908d7]" started-at="2023-10-08T23:17:46 EDT" name="setUp" finished-at="2023-10-08T23:17:47 EDT" duration-ms="1799" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.TC_LoginPageTest_Good@2de23121]" started-at="2023-11-07T07:52:47 EST" name="tearDown" finished-at="2023-11-07T07:52:47 EST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.TC_LoginPageTest_Good -->
+      <class name="com.ActualTest.TC_CustomizedTest_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.TC_CustomizedTest_Good@587e5365]" started-at="2023-11-07T07:52:29 EST" name="setUp" finished-at="2023-11-07T07:52:31 EST" duration-ms="1254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customizedTest()[pri:0, instance:com.ActualTest.TC_CustomizedTest_001@7c6908d7]" started-at="2023-10-08T23:17:47 EDT" name="customizedTest" finished-at="2023-10-08T23:17:49 EDT" duration-ms="1931" status="PASS">
+        <test-method signature="customizedTest()[pri:0, instance:com.ActualTest.TC_CustomizedTest_Good@587e5365]" started-at="2023-11-07T07:52:31 EST" name="customizedTest" finished-at="2023-11-07T07:52:34 EST" duration-ms="3637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customizedTest -->
-      </class> <!-- com.ActualTest.TC_CustomizedTest_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.TC_CustomizedTest_Good@587e5365]" started-at="2023-11-07T07:52:34 EST" name="tearDown" finished-at="2023-11-07T07:52:35 EST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.TC_CustomizedTest_Good -->
+      <class name="com.nopcommerce_Test.Promotion_Campaign_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Promotion_Campaign_Test@7bedc48a]" started-at="2023-11-07T07:50:32 EST" name="setUp" finished-at="2023-11-07T07:50:34 EST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="campaignTest()[pri:0, instance:com.nopcommerce_Test.Promotion_Campaign_Test@7bedc48a]" started-at="2023-11-07T07:50:34 EST" name="campaignTest" finished-at="2023-11-07T07:50:39 EST" duration-ms="5512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- campaignTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce_Test.Promotion_Campaign_Test@7bedc48a]" started-at="2023-11-07T07:50:39 EST" name="TearDown" finished-at="2023-11-07T07:50:40 EST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.nopcommerce_Test.Promotion_Campaign_Test -->
+      <class name="com.nopcommerce_Test.NopCommerce_LoginTest">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.nopcommerce_Test.NopCommerce_LoginTest@41a2befb]" started-at="2023-11-07T07:47:42 EST" name="set" finished-at="2023-11-07T07:47:47 EST" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="LoginTest()[pri:0, instance:com.nopcommerce_Test.NopCommerce_LoginTest@41a2befb]" started-at="2023-11-07T07:47:47 EST" name="LoginTest" finished-at="2023-11-07T07:48:52 EST" duration-ms="65025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce_Test.NopCommerce_LoginTest@41a2befb]" started-at="2023-11-07T07:48:52 EST" name="tearDown" finished-at="2023-11-07T07:48:53 EST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce_Test.NopCommerce_LoginTest -->
+      <class name="com.ActualTest.HandleCheckBox_Good">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ActualTest.HandleCheckBox_Good@6f4a47c7]" started-at="2023-11-07T07:51:46 EST" name="setUp" finished-at="2023-11-07T07:51:48 EST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chekBoxTest()[pri:0, instance:com.ActualTest.HandleCheckBox_Good@6f4a47c7]" started-at="2023-11-07T07:51:48 EST" name="chekBoxTest" finished-at="2023-11-07T07:51:49 EST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ActualTest.HandleCheckBox_Good@6f4a47c7]" started-at="2023-11-07T07:51:49 EST" name="tearDown" finished-at="2023-11-07T07:51:49 EST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ActualTest.HandleCheckBox_Good -->
+      <class name="com.nopcommerce_Test.Promotion_Discount_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce_Test.Promotion_Discount_Test@131ef10]" started-at="2023-11-07T07:50:40 EST" name="setUp" finished-at="2023-11-07T07:50:42 EST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="discountTest()[pri:0, instance:com.nopcommerce_Test.Promotion_Discount_Test@131ef10]" started-at="2023-11-07T07:50:42 EST" name="discountTest" finished-at="2023-11-07T07:50:51 EST" duration-ms="9614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- discountTest -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nopcommerce_Test.Promotion_Discount_Test@131ef10]" started-at="2023-11-07T07:50:51 EST" name="TearDown" finished-at="2023-11-07T07:50:52 EST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.nopcommerce_Test.Promotion_Discount_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
